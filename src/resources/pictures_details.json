@@ -1,6 +1,6 @@
 [
   {
-	"path": "src/images/1.jpg",
+	"path": "public/images/1.jpg",
 	"keywords": [
 		"maestro", 
 		"naumburg", 
@@ -25,7 +25,7 @@
 	]
   },
   {
-	"path": "src/images/2.jpg",
+	"path": "public/images/2.jpg",
 	"keywords": [
 		"matteo", 
 		"paris", 
