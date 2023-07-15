@@ -1,0 +1,65 @@
+[
+  {
+	"path": "src/images/1.jpg",
+	"keywords": [
+		"maestro", 
+		"naumburg", 
+		"marito", 
+		"moglie", 
+		"gerusalemme", 
+		"cattedrale", 
+		"continuità", 
+		"vita", 
+		"aldilà", 
+		"aldiqua", 
+		"ekkehart", 
+		"uta", 
+		"statue", 
+		["quotidiano", "quotidiana", "quotidianità"], 
+		["castità", "caste", "casta"], 
+		["pudore", "pudiche", "pudica"], 
+		"bavero", 
+		"scudo", 
+		["cavaliere", "cavalieri", "cavalierato"], 
+		["fedeltà", "fedele"]
+	]
+  },
+  {
+	"path": "src/images/2.jpg",
+	"keywords": [
+		"matteo", 
+		"paris", 
+		"inghilterra", 
+		"incisione",
+		"1255", 
+		"elefante", 
+		"londra", 
+		"persona", 
+		"scala", 
+		["gerarchica", "importanza", "d'importanza"], 
+		["realtà", "reale"], 
+		"frate", 
+		["autoritratto", "autoritrae"], 
+		["inginocchiato", "ginocchio"]
+	]
+  },
+  {
+	"path": "src/images/3.jpg",
+	"keywords": [
+		["quadro", "dipinto"],
+		"lorenzetti",
+		"città",
+		"allegoria",
+		"buon", 
+		"governo",
+		"duomo",
+		"siena",
+		"osservazione",
+		"realtà",
+		"pace",
+		["case", "abitazioni"],
+		"castello",
+		"borgo"
+	]
+  }
+]
