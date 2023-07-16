@@ -1,7 +1,7 @@
 export const processAnswer = (answer: string): any => {
 	const regex = /[.,:;_+\*\\\n/-]/g;
 
-	const cleanedAnswer: any = answer.replace(regex, "");
+	const cleanedAnswer: any = answer.replace(regex, " ");
 	const cleanedAnswerToArray: any = cleanedAnswer
 		.split(" ")
 		.filter((word: string) => word !== "");
