@@ -5,7 +5,7 @@ const Header = () => {
 				PicGuessr
 			</h1>
 			<h1 className="font-medium text-gray-300 text-xl flex justify-center items-center p-5 col-span-1 mt-1">
-				v1.0.0
+				v1.0.1
 			</h1>
 		</div>
 	);

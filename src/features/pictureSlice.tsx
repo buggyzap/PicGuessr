@@ -3,6 +3,7 @@ import pictures from "../resources/pictures_details.json";
 
 const initialState: any = {
 	currentPicture: {},
+	answer: [],
 };
 
 export const pictureSlice = createSlice({
@@ -13,9 +14,12 @@ export const pictureSlice = createSlice({
 			const randomIndex = Math.floor(Math.random() * pictures.length);
 			state.currentPicture = pictures[randomIndex];
 		},
+		setAnswer(state: any, action: any) {
+			state.answer = action.payload;
+		},
 	},
 });
 
-export const { setCurrentPicture } = pictureSlice.actions;
+export const { setCurrentPicture, setAnswer } = pictureSlice.actions;
 
 export default pictureSlice.reducer;
