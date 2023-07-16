@@ -1,12 +1,14 @@
 export const processAnswer = (answer: string): any => {
-	const regex = /[.,:;_+\*\/-]/g;
+	const regex = /[.,:;_+\*\\\n/-]/g;
 
 	const cleanedAnswer: any = answer.replace(regex, "");
 	const cleanedAnswerToArray: any = cleanedAnswer
 		.split(" ")
 		.filter((word: string) => word !== "");
-
-	return cleanedAnswerToArray;
+	const answerArray: any = cleanedAnswerToArray?.map((string: string) =>
+		string.toLowerCase()
+	);
+	return answerArray;
 };
 
 export const findKeywordMatch = (

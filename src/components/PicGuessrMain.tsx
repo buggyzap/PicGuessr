@@ -31,6 +31,8 @@ const PicGuessrMain = () => {
 		setCommons(commons);
 	}, [answer]);
 
+	console.log(answer);
+
 	return (
 		<div className="grid grid-cols-2">
 			<PictureCard picture={currentPicture} />
